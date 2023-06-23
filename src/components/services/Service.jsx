@@ -17,27 +17,27 @@ function Service() {
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>User-Centric Design.</p>
             </li>
 
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>Visual Design Skills</p>
             </li>
 
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>Prototyping and Wireframing</p>
             </li>
 
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>Interaction Design</p>
             </li>
 
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>Collaboration and Communication:</p>
             </li>
           </ul>
         </article>
@@ -51,32 +51,32 @@ function Service() {
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>Responsive Web Design.</p>
             </li>
 
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>User Experience (UX).</p>
             </li>
 
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>Web Performance Optimization.</p>
             </li>
 
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>Frontend Frameworks/Libraries.</p>
             </li>
 
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>Debugging and Problem-Solving.</p>
             </li>
 
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>Responsive Web Design.</p>
             </li>
           </ul>
         </article>
@@ -90,27 +90,27 @@ function Service() {
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>Creativity</p>
             </li>
 
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>Content Strategy</p>
             </li>
 
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>Visual Communication</p>
             </li>
 
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>Basic Graphic Design Skills</p>
             </li>
 
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>Social Media Savviness</p>
             </li>
 
           </ul>

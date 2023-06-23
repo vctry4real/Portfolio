@@ -1,41 +1,41 @@
 import React from 'react';
 import './Portfolio.css';
-import IMG1 from '../../assets/IMG1.jpg'
-import IMG2 from '../../assets/IMG2.jpg'
-import IMG3 from '../../assets/IMG3.jpg'
-import IMG4 from '../../assets/IMG4.jpg'
+import HostelDashboard from '../../assets/HostelDashboard.jpeg'
+import Ecommerce from '../../assets/Ecommerce.png'
+import foodApp from '../../assets/foodApp.jpeg'
+import moniflex from '../../assets/moniflex.jpeg'
 
 const data = [
   {
     id: 1,
-    image: IMG1,
-    title: "Crypto currency dashboard and financial visualization",
-    github: 'https://github.com',
-    demo: 'https://dribbble.com'
+    image: HostelDashboard,
+    title: "Hostel Management System (complete)",
+    github: 'https://github.com/vctry4real/Hostels',
+    demo: 'https://vctry.youtrack.cloud/issue/PIHB-20/Hostel-Management-System'
   },
 
   {
-    id: 1,
-    image: IMG2,
-    title: "dashboard visualization",
-    github: 'https://github.com',
-    demo: 'https://dribbble.com'
+    id: 2,
+    image: Ecommerce,
+    title: "Blockchain Ecommerce Store (complete)",
+    github: 'https://github.com/vctry4real/blockchain-ecommerce',
+    //demo: 'https://dribbble.com'
   },
 
   {
     id: 3,
-    image: IMG3,
-    title: "Crypto visualization",
-    github: 'https://github.com',
-    demo: 'https://dribbble.com'
+    image: foodApp,
+    title: "Food App (Frontend)",
+    github: 'https://github.com/vctry4real/foodApp',
+    //demo: 'https://dribbble.com'
   },
 
   {
     id: 4,
-    image: IMG4,
-    title: "Data visualization",
-    github: 'https://github.com',
-    demo: 'https://dribbble.com'
+    image: moniflex,
+    title: "MoniFlex Status : Under Development",
+    github: 'https://github.com/vctry4real/svenix',
+    //demo: 'https://dribbble.com'
   }
 ]
 
@@ -57,7 +57,7 @@ function Portfolio() {
               <h3>{title}</h3>
               <div className='portfolio__item-cta'>
                 <a href={github} className='btn' target='_blank'>Github</a>
-                <a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a>
+                {/*<a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a>*/}
               </div>
         </article>
             )

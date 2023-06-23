@@ -20,19 +20,19 @@ import 'swiper/css/pagination';
 const data = [
   {
     avatar:A,
-    name: "Tina snow",
-    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi mollitia dolore numquam voluptatibus suscipit at soluta animi aperiam doloremque, architecto accusamus nemo, vero, ducimus tempora eveniet recusandae deleniti? Eligendi temporibus magni quod iusto veritatis sint at eum suscipit.',
+    name: "Yoyin",
+    review: '"Hiring Johnson Victory was one of the best decisions I made. His technical skills and expertise in HTML, CSS, JavaScript,PHP and MySQL were evident in the seamless functionality and responsive design they delivered. They were responsive to our needs, provided valuable suggestions, and completed the project on time and within budget. Highly skilled and professional!"',
 
   },
 
   {
     avatar:A1,
-    name: "Angel Reese",
-    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi mollitia dolore numquam voluptatibus suscipit at soluta animi aperiam doloremque, architecto accusamus nemo, vero, ducimus tempora eveniet recusandae deleniti? Eligendi temporibus magni quod iusto veritatis sint at eum suscipit.',
+    name: "Magaret",
+    review: "Working with Johnson Victory was an absolute pleasure! His attention to detail and creative approach to design really brought our project to life. The end result exceeded our expectations, and we received numerous compliments on the sleek and modern design. Highly recommended!",
 
   },
 
-  {
+  /*{
     avatar:A2,
     name: "Mia Tunner",
     review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi mollitia dolore numquam voluptatibus suscipit at soluta animi aperiam doloremque, architecto accusamus nemo, vero, ducimus tempora eveniet recusandae deleniti? Eligendi temporibus magni quod iusto veritatis sint at eum suscipit.',
@@ -41,10 +41,10 @@ const data = [
 
   {
     avatar:A3,
-    name: "Molly Jane",
+    name: "Jane",
     review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi mollitia dolore numquam voluptatibus suscipit at soluta animi aperiam doloremque, architecto accusamus nemo, vero, ducimus tempora eveniet recusandae deleniti? Eligendi temporibus magni quod iusto veritatis sint at eum suscipit.',
 
-  },
+  },*/
 ]
 
 const Testimonials = () => {

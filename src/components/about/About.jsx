@@ -35,12 +35,12 @@ const About = () => {
             <article className='about__article__card'>
               <AiFillFolderOpen className='about_icon'/>
               <h5>Projects</h5>
-              <small>6 projects </small>
+              <small>4 projects </small>
             </article>
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio illum perspiciatis ab impedit, a consectetur voluptatem molestiae ratione doloremque ullam dolorum quidem perferendis assumenda, amet expedita repudiandae tenetur porro debitis.
+          I am an expert web developer, I have honed my skills and expertise to help businesses achieve their goals and objectives.I am web developer who is willing to go above and beyond on any project. As a web developer, I have a deep understanding of various programming languages such as HTML, CSS, JavaScript, and PHP. I am proficient in using frameworks like React and CMS platforms like codux. My technical knowledge and experience enable me to develop responsive and dynamic websites that deliver exceptional user experiences.
           </p>
 
           <a href='#contact' className='btn btn-primary'>Let's Talk</a>
