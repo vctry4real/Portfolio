@@ -25,9 +25,9 @@ const data = [
   {
     id: 3,
     image: foodApp,
-    title: "Food App (Frontend)",
+    title: "Door Step Dinning (Frontend)",
     github: 'https://github.com/vctry4real/foodApp',
-    //demo: 'https://dribbble.com'
+    demo: 'https://doorstepdinning.vercel.app/'
   },
 
   {
