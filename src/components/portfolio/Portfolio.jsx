@@ -1,41 +1,49 @@
 import React from 'react';
 import './Portfolio.css';
-import HostelDashboard from '../../assets/HostelDashboard.jpeg'
-import Ecommerce from '../../assets/Ecommerce.png'
-import foodApp from '../../assets/foodApp.jpeg'
-import moniflex from '../../assets/moniflex.jpeg'
+import enrichmatic from '../../assets/enrichmatic.png'
+import newkindred from '../../assets/newkindred.png'
+import protomated from '../../assets/protomated.png'
+import eazysites from '../../assets/eazysites.png'
+import treasures from '../../assets/treasures.png'
 
 const data = [
   {
     id: 1,
-    image: HostelDashboard,
-    title: "Hostel Management System (complete)",
-    github: 'https://github.com/vctry4real/Hostels',
-    demo: 'https://vctry.youtrack.cloud/issue/PIHB-20/Hostel-Management-System'
+    image: enrichmatic,
+    title: "Enrichmatic",
+    // github: 'https://github.com/vctry4real/Hostels',
+    view: 'https://enrichmatic.com/'
   },
 
   {
     id: 2,
-    image: Ecommerce,
-    title: "Blockchain Ecommerce Store (complete)",
-    github: 'https://github.com/vctry4real/blockchain-ecommerce',
-    //demo: 'https://dribbble.com'
+    image: newkindred,
+    title: "Newkindred.com ",
+    // github: 'https://github.com/vctry4real/blockchain-ecommerce',
+    view: 'https://newkindred.com/'
   },
 
   {
     id: 3,
-    image: foodApp,
-    title: "Door Step Dinning (Frontend)",
-    github: 'https://github.com/vctry4real/foodApp',
-    demo: 'https://doorstepdinning.vercel.app/'
+    image: protomated,
+    title: "Protomated",
+    // github: 'https://github.com/vctry4real/foodApp',
+    view: 'https://protomated.com/'
   },
 
   {
     id: 4,
-    image: moniflex,
-    title: "MoniFlex Status : Under Development",
-    github: 'https://github.com/vctry4real/svenix',
-    //demo: 'https://dribbble.com'
+    image: eazysites,
+    title: "Eazysites (Landing page)",
+    //github: 'https://github.com/vctry4real/svenix',
+    view: 'https://eazysites.vercel.app/'
+  },
+  {
+    id: 5,
+    image: treasures,
+    title: "Treasures",
+    //github: 'https://github.com/vctry4real/svenix',
+    view: 'https://treasuresapp.vercel.app/'
   }
 ]
 
@@ -48,25 +56,25 @@ function Portfolio() {
 
       <div className="container portfolio__container">
         {
-          data.map(({id, image, title, github, demo}) =>{
+          data.map(({ id, image, title, github, view }) => {
             return (
-            <article key={id} className='portfolio__item'>
-              <div className="portfolio__item-image">
+              <article key={id} className='portfolio__item'>
+                <div className="portfolio__item-image">
                   <img src={image} alt={title} />
-              </div>
-              <h3>{title}</h3>
-              <div className='portfolio__item-cta'>
-                <a href={github} className='btn' target='_blank'>Github</a>
-                {/*<a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a>*/}
-              </div>
-        </article>
+                </div>
+                <h3>{title}</h3>
+                <div className='portfolio__item-cta'>
+                  {/* <a href={github} className='btn' target='_blank'>Github</a> */}
+                  <a href={view} className='btn btn-primary' target='_blank'>Live view</a>
+                </div>
+              </article>
             )
           })
         }
 
 
       </div>
-    </section> 
+    </section>
   )
 }
 

@@ -3,6 +3,9 @@ import './Footer.css'
 import {BsLinkedin} from 'react-icons/bs'
 import {AiFillInstagram} from 'react-icons/ai'
 import {BsTwitter} from 'react-icons/bs'
+import { FaTiktok } from "react-icons/fa6";
+
+
 
 const Footer = () => {
   return (
@@ -21,8 +24,9 @@ const Footer = () => {
 
       <div className='footer__socials'>
         <a href='https://www.linkedin.com/in/johnson-victory-1b19591b1/' target="_blank"><BsLinkedin className='footer__option-icon'/></a>
-        <a href='https://instagram.com' target="_blank"><AiFillInstagram /></a>
+        <a href='https://www.instagram.com/genz_dev/' target="_blank"><AiFillInstagram /></a>
         <a href='https://twitter.com' target="_blank"><BsTwitter /></a>
+        <a href='https://www.tiktok.com/@genz_dev?is_from_webapp=1&sender_device=pc' target="_blank"><FaTiktok /></a>
       </div>
 
       <div className="footer__copyright">

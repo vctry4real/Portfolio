@@ -11,33 +11,33 @@ function Service() {
       <div className='container services__container'>
         <article className='services'>
           <div className='service__head'>
-            <h3>UI/UX Design</h3>
+            <h3>Automation</h3>
           </div>
 
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>User-Centric Design.</p>
+              <p>Workflow Design.</p>
             </li>
 
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Visual Design Skills</p>
+              <p>Workflow Implementation</p>
             </li>
 
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Prototyping and Wireframing</p>
+              <p>Task Automation</p>
             </li>
 
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Interaction Design</p>
+              <p>Bots</p>
             </li>
 
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Collaboration and Communication:</p>
+              <p>Third-party API Integration</p>
             </li>
           </ul>
         </article>
@@ -66,17 +66,17 @@ function Service() {
 
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Frontend Frameworks/Libraries.</p>
+              <p>SEO Optimization.</p>
             </li>
 
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Debugging and Problem-Solving.</p>
+              <p>No-code Web development.</p>
             </li>
 
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Responsive Web Design.</p>
+              <p>Website Maintenance.</p>
             </li>
           </ul>
         </article>
@@ -90,7 +90,7 @@ function Service() {
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Creativity</p>
+              <p>Script Writing</p>
             </li>
 
             <li>
@@ -100,17 +100,17 @@ function Service() {
 
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Visual Communication</p>
+              <p>Video Editing</p>
             </li>
 
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Basic Graphic Design Skills</p>
+              <p>Videography</p>
             </li>
 
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Social Media Savviness</p>
+              <p>Content Roadmap Development</p>
             </li>
 
           </ul>

@@ -21,7 +21,7 @@ const data = [
   {
     avatar:A,
     name: "Yoyin",
-    review: '"Hiring Johnson Victory was one of the best decisions I made. His technical skills and expertise in HTML, CSS, JavaScript,PHP and MySQL were evident in the seamless functionality and responsive design they delivered. He was responsive to our needs, provided valuable suggestions, and completed the project on time and within budget. Highly skilled and professional!"',
+    review: '"Hiring Johnson Victory was one of the best decisions I made. His technical skills and expertise in HTML, CSS, JavaScript,PHP and MySQL were evident in the seamless functionality and responsive design he delivered. He was responsive to our needs, provided valuable suggestions, and completed the project on time and within budget. Highly skilled and professional!"',
 
   },
 
